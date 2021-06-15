@@ -8,7 +8,12 @@
             <h1>Inscription</h1>
         </div>
         <form action="inscription.php" method="POST"> 
-            <input type="hidden" name="token_contact" value="<?php $token_contact = hash('sha512', uniqid()); echo $token_contact; ?>">
+            <input type="hidden" name="token_contact" value="
+                <?php 
+                    $token_contact = hash('sha512', uniqid()); 
+                    echo $token_contact; 
+                ?>
+            ">
             <div>
                 <input type="text" name="nom" placeholder="Votre nom">
             </div>
