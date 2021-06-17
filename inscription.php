@@ -7,8 +7,8 @@
         $nbre_result = $req->rowCount();
         $req->closeCursor();
         if($nbre_result == 0){
-            if(isset($_POST["nom"]) && isset($_POST["email"]) && isset($_POST["password"])){
-                if($_POST["nom"] != ""  && $_POST["email"] != "" && $_POST["password"] != ""){
+            if(isset($_POST["nom"])&&isset($_POST["email"])&&isset($_POST["password"])&&isset($_POST["token_contact_inscription"])){
+                if($_POST["nom"] != "" &&$_POST["email"]!=""&& $_POST["password"]!=""){
                     $Vemail = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
                     if(filter_var($Vemail, FILTER_VALIDATE_EMAIL)){
 
