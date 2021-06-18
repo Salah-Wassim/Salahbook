@@ -1,0 +1,158 @@
+/* RESET CSS */
+
+body{
+    position:relative;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin:0;
+    background-color:#f0f2f5;
+}
+p,h1,h2,h3,h4,h5,h6,form{
+    padding:8px;
+}
+a{
+    text-decoration:none;
+}
+/* FORMULAIRE */
+
+.formulaire{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:solid 1px #000;
+    width:100%;
+    padding:30px 0;
+}
+
+ /* CONNEXION */
+
+.connexion{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    width:600px;
+    height:100%;
+    /*border:solid 1px #000;*/
+}
+
+/* CONNEXION MEDIA 531px */
+
+@media all and (max-width: 531px){
+    .connexion{
+        justify-content:center;
+    }
+}
+
+/* TITLE */
+
+.title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.title-contain{
+    width:300px;
+}
+.title-contain > h1, .title-contain > p{
+    display:inline-block;
+}
+.title-contain > h1{
+    font-size:45px;
+    font-weight:700;
+    margin-bottom:0;
+    color:#1877f2;
+}
+.title-contain > p{
+    margin-top:0;
+    font-weight:500;
+}
+
+/* TITLE MEDIA 531px */
+
+@media all and (max-width: 531px){
+    .title-contain{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .title-contain > h1,.title-contain > p{
+        text-align:center;
+    }
+}
+
+/* FORM */
+
+.form-container-ext{
+    display:inline-block;
+    padding:10px;
+    margin:10px;
+    box-shadow: 10px 5px 5px #dadde1;
+    border-radius:7px;
+    background-color:#FFF;
+}
+form{
+    padding:0;
+}
+.form-input,.form-submit,.form-link{
+    margin:10px;
+}
+.form-submit, .form-link,.btn{
+    display:flex;
+    justify-content:center;
+}
+.input-text{
+    padding:7px;
+    border:#dadde1 solid 1px;
+    color:#dadde1;
+}
+
+#submit{
+    width:100%;
+    padding:7px;
+    background-color:#1877f2;
+    border:none;
+    border-radius:5px;
+    color:#FFF;
+    font-weight:700;
+}
+.form-link > a{
+    color:#1877f2;
+    font-size:14px;
+}
+hr{border: #dadde1 solid 0.1px}
+.btn-cpmt{
+    border:none;
+    border-radius:5px;
+    margin:5px;
+    padding:7px;
+    background-color:#42b72a;
+    color:#FFF;
+    font-weight:700;
+}
+
+/* INSCRIPTION */
+
+.inscription{
+    display:none;
+    position:absolute;
+    z-index:5;
+    border:solid 1px #000;
+    background-color:#FFF;
+}
+
+/* MOT DE PASSE OUBLIE */
+
+/* FOOTER */
+footer{
+    background-color:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+footer > p{
+    font-weight:300;
+    color:#FFF;
+}
