@@ -123,7 +123,7 @@ form{
     font-size:14px;
 }
 hr{border: #dadde1 solid 0.1px}
-.btn-cpmt{
+#btn-cpmt{
     border:none;
     border-radius:5px;
     margin:5px;
@@ -139,8 +139,55 @@ hr{border: #dadde1 solid 0.1px}
     display:none;
     position:absolute;
     z-index:5;
+    top:10px;
     border:solid 1px #000;
+    border-radius:7px;
     background-color:#FFF;
+}
+.btn-cross{
+    margin-left:calc(261px - 21.18px);
+    border:none;
+    border-radius:7px;
+    background-color:#FFF;
+}
+.inscription-contain{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin:0 20px 20px 20px;
+    border:solid 1px #000;
+}
+.title-contain > h1{
+    margin-top:0;
+}
+.title-contain-inscription{
+    display:flex;
+    width:220px;
+    flex-direction:column;
+}
+.title-contain-inscription > h1{
+    color:#000;
+    font-size:32px;
+}
+.title-contain-inscription > p, .title-contain-inscription > h1{
+    margin-bottom:0;
+    padding:0 8px;
+}
+@media all and (max-width: 531px){
+    .title-contain-inscription > h1,.title-contain-inscription > p{
+        text-align:left;
+    }
+}
+#btn-nscrr{
+    border:none;
+    border-radius:5px;
+    margin:5px;
+    padding:7px;
+    background-color:#42b72a;
+    color:#FFF;
+    font-weight:700;
+    width:100%;
 }
 
 /* MOT DE PASSE OUBLIE */
