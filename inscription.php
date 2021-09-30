@@ -29,6 +29,6 @@
         }
     }
     else{
-        header('Location: http://localhost/formulaire/test.php');
+        header('Location: http://localhost/formulaire/index.php');
     }
 ?>

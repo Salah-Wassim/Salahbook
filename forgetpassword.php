@@ -23,7 +23,7 @@
             <input type="submit" value="Envoyez">
         </form>
         <div>
-            <a href="http://localhost/formulaire/test.php">Retour à la page d'acceuil</a>
+            <a href="http://localhost/formulaire/index.php">Retour à la page d'acceuil</a>
         </div>
     </body>
 </html>

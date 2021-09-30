@@ -25,7 +25,7 @@
                             $req->execute();
                             echo "Votre mot de passe à bien été enregistré :)";
                             ?>
-                                <a href="http://localhost/formulaire/test.php">Retour à la page précédente</a>
+                                <a href="http://localhost/formulaire/index.php">Retour à la page précédente</a>
                             <?php
                         }
                     }

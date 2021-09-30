@@ -19,21 +19,21 @@
                     header('Location: http://localhost/formulaire/page2.php');
                 }
                 else{
-                    echo "L'email ou le mot de passe n'est pas valide hjhjkhujkhjkhjk:)";
+                    echo "L'email ou le mot de passe n'est pas valide :(";
                     ?>
-                        <a href="http://localhost/formulaire/test.php">Retour à la page d'acceuil</a>
+                        <a href="http://localhost/formulaire/index.php">Retour à la page d'acceuil</a>
                     <?php
                 }
             }
         }
         else{
-            echo "Oups :( l'email n'est pas connu ! Si vous n'avez pas de compte, inscrivez vous en haut";
+            echo "Oups :( l'email n'est pas connu ! Si vous n'avez pas de compte, crée un compte !";
             ?>
-                <a href="http://localhost/formulaire/test.php">Retour à la page d'acceuil</a>
+                <a href="http://localhost/formulaire/index.php">Retour à la page d'acceuil</a>
             <?php
         }
     }
     else{
-        header('Location: http://localhost/formulaire/test.php');
+        header('Location: http://localhost/formulaire/index.php');
     }
 ?>

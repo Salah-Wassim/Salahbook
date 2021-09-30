@@ -106,7 +106,7 @@ form{
 .input-text{
     padding:7px;
     border:#dadde1 solid 1px;
-    color:#dadde1;
+    /*color:#dadde1;*/
 }
 
 #submit{
